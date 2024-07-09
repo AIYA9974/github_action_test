@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-lastest
     steps:
-    -name: test1
+    - name: test1
       run: echo abcde!
-     -name: directory list
+     - name: directory list
        run: sudo ls -al
